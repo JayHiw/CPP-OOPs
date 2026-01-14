@@ -7,6 +7,10 @@ lab on C++ and oop concept
 ├── Program_05_Celsius_To_Fahrenheit.cpp
 └── Program_06_Positive_Negative_Zero.cpp
 
+
+
+
+
 # LAB on OOP Using C++ – Assignment 1
 
 This repository contains C++ programs written for **Lab Assignment 1** of  
@@ -119,3 +123,41 @@ int main() {
     return 0;
 }
 .
+
+
+
+
+Problem
+
+Create a simple class to represent a Student.
+
+Code
+#include <iostream>
+using namespace std;
+
+class Student {
+private:
+    string name;
+    int age;
+
+public:
+    Student(string n, int a) {
+        name = n;
+        age = a;
+    }
+
+    void display() {
+        cout << "Name: " << name << endl;
+        cout << "Age: " << age << endl;
+    }
+};
+
+int main() {
+    Student s1("Jay", 19);
+    s1.display();
+    return 0;
+}
+
+Output
+Name: Jay
+Age: 21

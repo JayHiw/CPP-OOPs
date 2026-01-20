@@ -152,5 +152,23 @@ int main() {
     return 0;
 }
 
+# CPP-OOPs
+
+This repository contains C++ programs written for **Lab Assignment 1** of  
+**Object Oriented Programming using C++**.
+
+The focus is on building strong fundamentals using simple, clear programs.
+
+---
+
+## Lab Details
+- **Subject:** Object Oriented Programming using C++
+- **Assignment:** Lab Assignment 1
+- **Language:** C++
+
+---
+
+## Repository Structure
+
 
 

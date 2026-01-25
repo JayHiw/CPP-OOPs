@@ -5,7 +5,120 @@ lab on C++ and oop concept
 ├── Program_03_Swap_Without_Third_Variable.cpp
 ├── Program_04_Area_Perimeter_Circle.cpp
 ├── Program_05_Celsius_To_Fahrenheit.cpp
-└── Program_06_Positive_Negative_Zero.cpp
+"""
+Assignment No. 2
+Subject: Python Programming
+Topic: Control Statements and Loops
+"""
+
+# -------------------------------------------------
+# 1. Using if statement
+# Write a Python program to add two numbers only if both numbers are positive.
+# -------------------------------------------------
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if num1 > 0 and num2 > 0:
+    print("Sum =", num1 + num2)
+
+
+# -------------------------------------------------
+# 2. Using if–else statement
+# Write a Python program to find the maximum of two numbers using an if–else control structure.
+# -------------------------------------------------
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+if a > b:
+    print("Maximum number is:", a)
+else:
+    print("Maximum number is:", b)
+
+
+# -------------------------------------------------
+# 3. Using for loop
+# Write a Python program to compute the factorial of a given number using a for loop.
+# -------------------------------------------------
+
+num = int(input("Enter a number: "))
+factorial = 1
+
+for i in range(1, num + 1):
+    factorial *= i
+
+print("Factorial of", num, "is", factorial)
+
+
+# -------------------------------------------------
+# 4. Using if–elif–else statement
+# Write a Python program to calculate Simple Interest, where different interest rates
+# are applied using if–elif–else based on the time period.
+# -------------------------------------------------
+
+p = float(input("Enter principal amount: "))
+t = int(input("Enter time period (in years): "))
+
+if t <= 2:
+    r = 5
+elif t <= 5:
+    r = 7
+else:
+    r = 10
+
+si = (p * t * r) / 100
+print("Simple Interest =", si)
+
+
+# -------------------------------------------------
+# 5. Using while loop and if condition
+# Write a Python program to check whether a given number is an Armstrong number.
+# -------------------------------------------------
+
+number = int(input("Enter a number: "))
+temp = number
+sum = 0
+
+while temp > 0:
+    digit = temp % 10
+    sum += digit ** 3
+    temp //= 10
+
+if sum == number:
+    print(number, "is an Armstrong number")
+else:
+    print(number, "is not an Armstrong number")
+
+
+# -------------------------------------------------
+# 6. Using if condition
+# Write a Python program to find the area of a circle only if the radius is greater than zero.
+# -------------------------------------------------
+
+radius = float(input("Enter radius: "))
+
+if radius > 0:
+    area = 3.14 * radius * radius
+    print("Area of the circle =", area)
+
+
+# -------------------------------------------------
+# 7. Using for loop and range() function
+# Write a Python program to print all prime numbers within a given interval.
+# -------------------------------------------------
+
+start = int(input("Enter starting number: "))
+end = int(input("Enter ending number: "))
+
+for num in range(start, end + 1):
+    if num > 1:
+        for i in range(2, num):
+            if num % i == 0:
+                break
+        else:
+            print(num)
+
 
 
 

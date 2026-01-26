@@ -9,9 +9,6 @@ lab on C++ and oop concept
 Assignment No. 2
 Subject: Python Programming
 Topic: Control Statements and Loops
-"""
-
-# -------------------------------------------------
 # 1. Using if statement
 # Write a Python program to add two numbers only if both numbers are positive.
 # -------------------------------------------------

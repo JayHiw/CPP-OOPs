@@ -278,9 +278,6 @@ The focus is on building strong fundamentals using simple, clear programs.
 
 ---
 
-## Repository Structure
-
-Programs Included
 
 Addition and Subtraction of Two Numbers
 Takes two integers as input and displays their addition and subtraction.

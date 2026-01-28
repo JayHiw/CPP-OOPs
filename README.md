@@ -1,4 +1,4 @@
-# CPP-OOPs
+# OOPs using CPP
 lab on C++ and oop concept
 ├── Program_01_Addition_Subtraction.cpp
 ├── Program_02_Swap_Using_Third_Variable.cpp

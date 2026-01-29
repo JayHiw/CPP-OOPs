@@ -267,31 +267,4 @@ This repository contains C++ programs written for **Lab Assignment 1** of
 
 The focus is on building strong fundamentals using simple, clear programs.
 
----
-
-## Lab Details
-- **Subject:** Object Oriented Programming using C++
-- **Assignment:** Lab Assignment 1
-- **Language:** C++
-
----
-
-
-Addition and Subtraction of Two Numbers
-Takes two integers as input and displays their addition and subtraction.
-
-Swap Two Numbers Using a Third Variable
-Demonstrates swapping values using an extra temporary variable.
-
-Swap Two Numbers Without Using a Third Variable
-Performs swapping using arithmetic operations.
-
-Area and Perimeter of a Circle
-Calculates area and perimeter using a constant value of π.
-
-Celsius to Fahrenheit Conversion
-Converts temperature from Celsius to Fahrenheit using the standard formula.
-
-Check Whether a Number is Positive, Negative, or Zero
-Uses conditional statements to determine the nature of a number.
 

@@ -239,7 +239,6 @@ CPP-OOPs/
 ├── Program_03_Swap_Without_Third_Variable.cpp
 ├── Program_04_Area_Perimeter_Circle.cpp
 ├── Program_05_Celsius_To_Fahrenheit.cpp
-└── Program_06_Positive_Negative_Zero.cpp
 
 
 #include <iostream>

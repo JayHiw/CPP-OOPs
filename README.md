@@ -318,7 +318,58 @@ int main() {
 
 
 
+4) Menu Driven Program using Function Overloading (Area)
+#include <iostream>
+using namespace std;
 
+float area(float side) {
+    return side * side;
+}
+
+float area(float length, float breadth) {
+    return length * breadth;
+}
+
+float area(double radius) {
+    return 3.14 * radius * radius;
+}
+
+int main() {
+    int choice;
+    float a, b;
+    double r;
+
+    cout << "1. Area of Square\n";
+    cout << "2. Area of Rectangle\n";
+    cout << "3. Area of Circle\n";
+    cout << "Enter choice: ";
+    cin >> choice;
+
+    switch (choice) {
+        case 1:
+            cout << "Enter side: ";
+            cin >> a;
+            cout << "Area of Square: " << area(a);
+            break;
+
+        case 2:
+            cout << "Enter length and breadth: ";
+            cin >> a >> b;
+            cout << "Area of Rectangle: " << area(a, b);
+            break;
+
+        case 3:
+            cout << "Enter radius: ";
+            cin >> r;
+            cout << "Area of Circle: " << area(r);
+            break;
+
+        default:
+            cout << "Invalid Choice";
+    }
+
+    return 0;
+}
 
 3) Perimeter of a Circle using Inline Function
 #include <iostream>

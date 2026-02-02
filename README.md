@@ -267,3 +267,25 @@ This repository contains C++ programs written for **Lab Assignment 1** of
 The focus is on building strong fundamentals using simple, clear programs.
 
 
+assignment 04
+LAB on OOP Using CPP
+
+Assigment-4
+
+1)	Write a CPP program to display Fibonacci series using recursion.
+2)	Write a CPP program to find perimeter of a circle using inline function.
+3)	Write a menu driven CPP program for following options. 
+i.	To find square root of a number 
+ii.	To find ceil value of a number
+iii.	To find rounded value of a number
+iv.	To evaluate a^b operation 
+4)	Write a menu driven CPP program for following options using function overloading concept.
+i.	To calculate area of square 
+ii.	To calculate area of rectangle
+iii.	To calculate area of circle
+5)	Write a menu driven CPP program for following options using function overloading concept
+i.	To find a raised to b
+ii.	To find summation of first n integers
+iii.	To find multiplication of two numbers
+
+

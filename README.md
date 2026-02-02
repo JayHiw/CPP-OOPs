@@ -315,3 +315,25 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+3) Perimeter of a Circle using Inline Function
+#include <iostream>
+using namespace std;
+
+inline float perimeter(float r) {
+    return 2 * 3.14 * r;
+}
+
+int main() {
+    float radius;
+    cout << "Enter radius: ";
+    cin >> radius;
+
+    cout << "Perimeter of circle: " << perimeter(radius);
+
+    return 0;
+}

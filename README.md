@@ -337,3 +337,53 @@ int main() {
 
     return 0;
 }
+
+
+
+3) Menu Driven Program (Math Functions)
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    int choice;
+    double num, a, b;
+
+    cout << "1. Square Root\n";
+    cout << "2. Ceil Value\n";
+    cout << "3. Rounded Value\n";
+    cout << "4. Power (a^b)\n";
+    cout << "Enter your choice: ";
+    cin >> choice;
+
+    switch (choice) {
+        case 1:
+            cout << "Enter number: ";
+            cin >> num;
+            cout << "Square Root: " << sqrt(num);
+            break;
+
+        case 2:
+            cout << "Enter number: ";
+            cin >> num;
+            cout << "Ceil Value: " << ceil(num);
+            break;
+
+        case 3:
+            cout << "Enter number: ";
+            cin >> num;
+            cout << "Rounded Value: " << round(num);
+            break;
+
+        case 4:
+            cout << "Enter a and b: ";
+            cin >> a >> b;
+            cout << "Result: " << pow(a, b);
+            break;
+
+        default:
+            cout << "Invalid Choice";
+    }
+
+    return 0;
+}

@@ -5,8 +5,7 @@ lab on C++ and oop concept
 ├── Program_03_Swap_Without_Third_Variable.cpp
 ├── Program_04_Area_Perimeter_Circle.cpp
 ├── Program_05_Celsius_To_Fahrenheit.cpp
-"""
-Assignment No. 2
+ Assignment No. 2
 # 1. Using if statement
 # Write a Python program to add two numbers only if both numbers are positive.
 # -------------------------------------------------

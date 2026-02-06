@@ -8,7 +8,7 @@ lab on C++ and oop concept
  Assignment No. 2
 # 1. Using if statement
 # Write a Python program to add two numbers only if both numbers are positive.
-# -------------------------------------------------
+
 
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))

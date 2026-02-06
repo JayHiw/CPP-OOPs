@@ -33,7 +33,7 @@ else:
 
 # 3. Using for loop
 # Write a Python program to compute the factorial of a given number using a for loop.
-# -------------------------------------------------
+
 
 num = int(input("Enter a number: "))
 factorial = 1

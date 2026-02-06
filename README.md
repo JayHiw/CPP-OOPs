@@ -112,11 +112,6 @@ for num in range(start, end + 1):
         else:
             print(num)
 
-
-
-
-
-
 # LAB on OOP Using C++ – Assignment 1
 
 This repository contains C++ programs written for **Lab Assignment 1** of  

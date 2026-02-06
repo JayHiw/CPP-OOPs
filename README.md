@@ -65,7 +65,7 @@ si = (p * t * r) / 100
 print("Simple Interest =", si)
 
 
-# -------------------------------------------------
+
 # 5. Using while loop and if condition
 # Write a Python program to check whether a given number is an Armstrong number.
 # -------------------------------------------------

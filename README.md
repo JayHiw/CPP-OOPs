@@ -31,7 +31,6 @@ else:
     print("Maximum number is:", b)
 
 
-# -------------------------------------------------
 # 3. Using for loop
 # Write a Python program to compute the factorial of a given number using a for loop.
 # -------------------------------------------------

@@ -17,7 +17,6 @@ if num1 > 0 and num2 > 0:
     print("Sum =", num1 + num2)
 
 
-# -------------------------------------------------
 # 2. Using if–else statement
 # Write a Python program to find the maximum of two numbers using an if–else control structure.
 # -------------------------------------------------

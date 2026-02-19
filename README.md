@@ -14,7 +14,7 @@ num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
 if num1 > 0 and num2 > 0:
-    print("Sum =", num1 + num2)
+
 
 
 # 2. Using if–else statement
